@@ -10,6 +10,7 @@ Feature: Smoke steps
     Then I click on element using JavaScript with xpath "(//input[@value='Google Search'])[2]"
     Then I wait for element with xpath "//*[@id='ires']" to be present
     Then element with xpath "//*[@id='ires']" should contain text "Cucumber"
+<<<<<<< HEAD
     
   @predefined2
   Scenario: Predefined steps for Yahoo search
@@ -32,3 +33,7 @@ Feature: Smoke steps
     Then element with xpath "//div[@id='b_content']" should contain text "Japan"
 
     
+=======
+
+  
+>>>>>>> e9fd7c90664463c9f4883e2f72c97f1e3e1968bf
