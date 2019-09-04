@@ -1,0 +1,1044 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5379717600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Predefined steps for Google",
+        "description": "",
+        "id": "smoke-steps;predefined-steps-for-google",
+        "after": [
+          {
+            "result": {
+              "duration": 899746000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2441962800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open url \"https://google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://google.com",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143310800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see page title as \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 28
+                }
+              ],
+              "location": "PredefinedStepDefs.iShouldSeePageTitleAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81711300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "element with xpath \"//input[@name\u003d\u0027q\u0027]\" should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@name\u003d\u0027q\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldBePresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 518709600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"Behavior Driven Development\" into element with xpath \"//input[@name\u003d\u0027q\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Behavior Driven Development",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@name\u003d\u0027q\u0027]",
+                  "offset": 62
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2074176800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on element using JavaScript with xpath \"(//input[@value\u003d\u0027Google Search\u0027])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(//input[@value\u003d\u0027Google Search\u0027])[2]",
+                  "offset": 48
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementUsingJavaScriptWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71905100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I wait for element with xpath \"//*[@id\u003d\u0027ires\u0027]\" to be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\u0027ires\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iWaitForElementWithXpathToBePresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 585767600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "element with xpath \"//*[@id\u003d\u0027ires\u0027]\" should contain text \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\u0027ires\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "Cucumber",
+                  "offset": 58
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@predefined"
+          },
+          {
+            "name": "@predefined1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2651961200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Predefined steps for Yahoo search",
+        "description": "",
+        "id": "smoke-steps;predefined-steps-for-yahoo-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1136708600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10616035800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open url \"https://www.yahoo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.yahoo.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117764900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see page title as \"Yahoo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yahoo",
+                  "offset": 28
+                }
+              ],
+              "location": "PredefinedStepDefs.iShouldSeePageTitleAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266179900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "element with xpath \"//*[@name\u003d\u0027p\u0027]\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@name\u003d\u0027p\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235943800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I type \"Java\" into element with xpath \"//*[@name\u003d\u0027p\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 8
+                },
+                {
+                  "val": "//*[@name\u003d\u0027p\u0027]",
+                  "offset": 39
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1386575600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on element with xpath \"//*[contains(@title, \u0027Search Web\u0027)]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[contains(@title, \u0027Search Web\u0027)]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51168300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I wait for element with xpath \"//div[@id\u003d\u0027results\u0027]\" to be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@id\u003d\u0027results\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iWaitForElementWithXpathToBePresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 414628600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "element with xpath \"//div[@id\u003d\u0027results\u0027]\" should contain text \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@id\u003d\u0027results\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "Java",
+                  "offset": 63
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@predefined"
+          },
+          {
+            "name": "@predefined2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3027559000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Predefined steps for Bing search",
+        "description": "",
+        "id": "smoke-steps;predefined-steps-for-bing-search",
+        "after": [
+          {
+            "result": {
+              "duration": 898653200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1308090000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I open url \"https://www.bing.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bing.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33120100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see page title as \"Bing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bing",
+                  "offset": 28
+                }
+              ],
+              "location": "PredefinedStepDefs.iShouldSeePageTitleAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109465200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "element with xpath \"//input[@id\u003d\u0027sb_form_q\u0027]\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@id\u003d\u0027sb_form_q\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1686519900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I type \"Japan\" into element with xpath \"//input[@id\u003d\u0027sb_form_q\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Japan",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@id\u003d\u0027sb_form_q\u0027]",
+                  "offset": 40
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1333319200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on element with xpath \"//input[@id\u003d\u0027sb_form_go\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@id\u003d\u0027sb_form_go\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141334500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I wait for element with xpath \"//div[@id\u003d\u0027b_content\u0027]\" to be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@id\u003d\u0027b_content\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iWaitForElementWithXpathToBePresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 746735900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "element with xpath \"//div[@id\u003d\u0027b_content\u0027]\" should contain text \"Japan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@id\u003d\u0027b_content\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "Japan",
+                  "offset": 65
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@predefined"
+          },
+          {
+            "name": "@predefined3"
+          }
+        ]
+      }
+    ],
+    "name": "Smoke steps",
+    "description": "",
+    "id": "smoke-steps",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/predefined.feature",
+    "tags": [
+      {
+        "name": "@predefined",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2750531600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Name validation",
+        "description": "",
+        "id": "sample-page-predefined-steps;name-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 859614600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2696990100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open url \"http://skryabin.com/webdriver/html/sample.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://skryabin.com/webdriver/html/sample.html",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258154500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on element with xpath \"//*[@name\u003d\u0027name\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@name\u003d\u0027name\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68697600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "element with xpath \"//*[@name\u003d\u0027name\u0027]\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@name\u003d\u0027name\u0027]",
+                  "offset": 20
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldBeDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162752300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type \"Steve\" into element with xpath \"//input[@id\u003d\u0027firstName\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Steve",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@id\u003d\u0027firstName\u0027]",
+                  "offset": 40
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128451400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type \"The\" into element with xpath \"//input[@id\u003d\u0027middleName\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@id\u003d\u0027middleName\u0027]",
+                  "offset": 38
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169502500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I type \"Jobs\" into element with xpath \"//input[@id\u003d\u0027lastName\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jobs",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@id\u003d\u0027lastName\u0027]",
+                  "offset": 39
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198096500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on element with xpath \"//span[contains(text(),\u0027Save\u0027)]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//span[contains(text(),\u0027Save\u0027)]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42554400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "element with xpath \"//*[@id\u003d\u0027name\u0027]\" should have attribute \"value\" as \"Steve The Jobs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\u0027name\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "value",
+                  "offset": 60
+                },
+                {
+                  "val": "Steve The Jobs",
+                  "offset": 71
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldHaveAttributeAs(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sample"
+          },
+          {
+            "name": "@sample1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2937242000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Username Data Validation",
+        "description": "",
+        "id": "sample-page-predefined-steps;username-data-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 828829400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1168986800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I open url \"http://skryabin.com/webdriver/html/sample.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://skryabin.com/webdriver/html/sample.html",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 193665400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on element with xpath \"//input[@name\u003d\u0027username\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@name\u003d\u0027username\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169015800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I type \"s\" into element with xpath \"//input[@name\u003d\u0027username\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "s",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@name\u003d\u0027username\u0027]",
+                  "offset": 36
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159576000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on element with xpath \"//input[@name\u003d\u0027email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@name\u003d\u0027email\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59707600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "element with xpath \"//label[@id\u003d\u0027username-error\u0027]\" should contain text \"2 characters\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//label[@id\u003d\u0027username-error\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "2 characters",
+                  "offset": 72
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sample"
+          },
+          {
+            "name": "@sample2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2766163800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioStart()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Email validation",
+        "description": "",
+        "id": "sample-page-predefined-steps;email-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 874923900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenarioEnd(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3405623900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I open url \"http://skryabin.com/webdriver/html/sample.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://skryabin.com/webdriver/html/sample.html",
+                  "offset": 12
+                }
+              ],
+              "location": "PredefinedStepDefs.iOpenUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145293000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on element with xpath \"//input[@name\u003d\u0027email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@name\u003d\u0027email\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147055600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I type \"aaa@\" into element with xpath \"//input[@name\u003d\u0027email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aaa@",
+                  "offset": 8
+                },
+                {
+                  "val": "//input[@name\u003d\u0027email\u0027]",
+                  "offset": 39
+                }
+              ],
+              "location": "PredefinedStepDefs.iTypeIntoElementWithXpath(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141730100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on element with xpath \"//input[@id\u003d\u0027password\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//input[@id\u003d\u0027password\u0027]",
+                  "offset": 31
+                }
+              ],
+              "location": "PredefinedStepDefs.iClickOnElementWithXpath(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72356500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "element with xpath \"//label[@id\u003d\u0027email-error\u0027]\" should contain text \"Please enter a valid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//label[@id\u003d\u0027email-error\u0027]",
+                  "offset": 20
+                },
+                {
+                  "val": "Please enter a valid email address.",
+                  "offset": 69
+                }
+              ],
+              "location": "PredefinedStepDefs.elementWithXpathShouldContainText(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sample"
+          },
+          {
+            "name": "@sample3"
+          }
+        ]
+      }
+    ],
+    "name": "Sample page predefined steps",
+    "description": "",
+    "id": "sample-page-predefined-steps",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/sample.feature",
+    "tags": [
+      {
+        "name": "@sample",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
